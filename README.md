@@ -1,7 +1,7 @@
 # jQuery-dw_paging
 前端jquery分页插件,只需后端传一个参数.
 ##API
-`dw_paging(max,len,pream);`
+###dw_paging(max,len,pream);
 
 `max`:唯一需要后端传的一个参数: 总页数. 就是 sum/size 数.
 
