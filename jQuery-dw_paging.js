@@ -103,13 +103,6 @@
                 var text = Number(bc.last().text());
                 href(text + 1);
             });
-        },
-        //自动聚中
-        dw_autoM: function() {
-            var pwidth = this.parent().width(),
-                width = this.width();
-            this.css('margin-left', (pwidth - width) / 2);
-            return this;
         }
     })
 })(jQuery);
