@@ -5,6 +5,7 @@
                 this.hide();
                 return;
             }
+            len = len || 10;
             page = page || 'page=';
             var a = this.children(),
                 left = a.eq(0),
