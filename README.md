@@ -32,7 +32,7 @@
         <div class="dw_pading">next</div>
       </div>
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
-<script src="https://github.com/hezedu/jQuery-dw_paging/blob/master/jQuery-dw_paging.js"></script>
+<script src="jQuery-dw_paging.js"></script>
 <script>
 $('#dw_paging').dw_paging(30);
 </script>
