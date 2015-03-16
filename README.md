@@ -6,7 +6,7 @@
 `len`:分页菜单的长度.默认为10;
 `pream`url?后面的判定的参数,默认为page=
 ##例:
-```
+```html
 <html>
   <head>
     <style>
