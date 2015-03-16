@@ -1,4 +1,3 @@
-
 (function($) {
     $.fn.extend({
         dw_paging: function(max, len, page) { //分页 --dw
@@ -45,9 +44,9 @@
             firstPage.click(function() {
                 href(1);
             });
-            if(index===1){
-              firstPage.addClass('dw_on');
-              left.addClass('dw_disable');
+            if (index === 1) {
+                firstPage.addClass('dw_on');
+                left.addClass('dw_disable');
             }
             //index == 1 && firstPage.addClass('dw_on');
             //最后一页
@@ -55,7 +54,11 @@
             lastPage.click(function() {
                 href(max);
             });
-            index == max && lastPage.addClass('dw_on');
+            if(index === max){
+                lastPage.addClass('dw_on');
+                right.addClass('dw_disable');
+            }
+            //index == max && lastPage.addClass('dw_on');
             if (max == 1) {
                 lastPage.hide();
             }
