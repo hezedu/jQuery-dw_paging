@@ -3,7 +3,7 @@
 ##API
 ###dw_paging(max,len,pream);
 
-`max`:唯一需要后端传的一个参数: 总页数. 就是 sum/size 数.
+`max`:最大页数（总页数） 唯一需要后端传的一个参数: 总页数. 就是 sum/size 数.
 
 `len`:分页菜单的长度.默认为10;
 
