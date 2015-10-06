@@ -34,7 +34,7 @@
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
 <script src="jQuery-dw_paging.js"></script>
 <script>
-$('#dw_paging').dw_paging(30);
+$('#dw_paging').dw_paging(30,10,'page=');
 </script>
   </body>
 </html>
