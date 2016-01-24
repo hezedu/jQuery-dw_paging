@@ -17,8 +17,8 @@
     .dw_pading{padding:0 3px;height: 30px;margin:1px;text-align: center;cursor:pointer }
     .dw_pading:hover{color:#00a8e2}
     #dw_paging{margin:0 auto;}
-    .dw_pading.dw_on{color:#00a8e2}
-    .dw_pading.dw_disable{color:#999;cursor:default;}
+    .dw_pading.dw_on{color:#00a8e2}/*高亮*/
+    .dw_pading.dw_disable{color:#999;cursor:default;}/*禁止*/
     </style>
   </head>
   <body>
