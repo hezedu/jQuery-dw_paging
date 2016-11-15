@@ -70,16 +70,18 @@
                 pre.hide();
                 next.hide();
                 len2 = max;
-            } else if (index < len) {
+            } else if (index < (len - 1)) {
                 pre.hide();
-            } else if (max - index <= len) {
+                len2 = len2 - 1
+            } else if ((max - index) < (len - 2)) {
                 len2 = max;
-                i = max - len;
+                i = max - len + 3;
+                
                 next.hide();
             } else {
-                var len_pre = Math.round(len / 2);
-                i = index - len_pre;
-                len2 = i + len;
+                var len_pre = Math.floor(len / 2);
+                i = index - len_pre  + 2;
+                len2 = i + len - 4;
             }
             var dump = '',
                 cla = '';
